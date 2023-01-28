@@ -1,0 +1,10 @@
+.jumbotron h1 {
+  opacity: 0;
+  animation: fadein 2s ease-in infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
